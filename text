@@ -1,0 +1,130 @@
+in html-> element : combination of tag+content
+<p> this is p<p> : here this whole line is called as element ....
+whole tag+content :element...
+
+latest version:table,thead,tbody 
+
+Border of the table is actually a css:
+to add the borders :
+we need something :css
+css:cascaded style sheet...
+
+3 types of css are accepted...
+1.inline
+2.internal
+3.external...
+
+internal: within the same html document
+<style>
+</style>
+use internal css after the title tag......
+if need to add border  only for the table...
+we need selectors...(apply css to specific elements.....)
+tag selector: if you want to apply  style only for that particular  tag....
+
+
+to apply border we need : border property 
+width, color, the type:solid,dotted...dashed....
+width:px
+color:
+type:solid....
+
+
+K:V pair 
+
+
+border-collapse:to reduce space between cells...
+
+
+
+Merging two cells horizontally  under a common heading....(address)
+:colspan:
+
+a tag: refers for the redirection and target  attribute:_blank always open in a new tab
+
+//div,section,article....
+//form elements 
+//GIT and Netlify ....
+
+div:divsiion, it was in previous version of html
+using div we can able to color even a small element in the web page
+it can have different elements
+even to style a small element in the webpage use div
+
+
+
+section:
+similar set of elements
+it can have same combination of elements
+if you want to merge larger set of any kind of similar html elements prefer for section
+
+
+
+use div!!!!!
+
+
+div is diffrenet from span
+div:block level->next line
+div, p,articl,section,h1-h6,...
+span:inline-> same line span,a
+
+
+Any html elements can be used for styling..
+//Form elements:to get information from the user...
+//lablel in the form tag helsp us to identify where to enter which data??
+
+
+//CSS introduction
+1.types of css
+a.inline
+b.internal
+c.external
+2.selector and their priorities
+//GIT and Netlify 
+
+
+In external css: to connect 
+
+link tag connects the index.html and index.css
+rel->relation
+href-> file location
+
+no need of closing here 
+
+link cannot be mentined in the body tag
+all the external elements has to be within the head tag only
+
+
+1.For a single element can we apply all three???
+Yes ...
+But the priorities are Inline>internal> external
+
+//selectors
+class,id,*,tag..
+
+
+//i would like to use internal css
+
+Class selector always start with .classname
+class selector can be applicable to more than one element
+
+
+2.Can i apply 2 classes for the same element???
+Yes
+
+
+Id selector: if you want to differenciate each and every element
+#idname
+id selector
+id should be unique for each and every elements
+class vs id
+
+
+for a single element id and class can be applied but id is higher prioirty
+id>class>tag>...
+
+Multiple id is not allowed ....
+
+
+id:DOM 
+getElementById();
